@@ -1,6 +1,5 @@
-package com.springmongo.App;
+package learn.project;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.gridfs.GridFsOperations;
 import org.springframework.data.mongodb.gridfs.GridFsTemplate;
@@ -25,12 +24,12 @@ public class ApiController {
     @Autowired
     private FileUploadService fileUploadService;
 
-    @GetMapping("/")
-    public String getInfo(){
-        Optional<DetailInfo> record = dataRespository.findById("627036a7f84c0b24ccb995f7");
-        System.out.println(record);
-        return record.toString();
-    }
+//    @GetMapping("/")
+//    public String getInfo(){
+//        Optional<DetailInfo> record = dataRespository.findById("627036a7f84c0b24ccb995f7");
+//        System.out.println(record);
+//        return record.toString();
+//    }
 
     @GetMapping("/save")
     public String writeInfo(){

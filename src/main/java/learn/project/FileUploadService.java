@@ -1,4 +1,4 @@
-package com.springmongo.App;
+package learn.project;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;

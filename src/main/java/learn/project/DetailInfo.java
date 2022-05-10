@@ -1,4 +1,4 @@
-package com.springmongo.App;
+package learn.project;
 
 import lombok.Data;
 import lombok.Getter;

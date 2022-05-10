@@ -1,4 +1,4 @@
-package com.springmongo.App;
+package learn.project;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Field;
