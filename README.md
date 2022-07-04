@@ -1,2 +1,2 @@
-# Spring-boot-Learn-app
-A simple springBoot Application 
+# Spring-boot-apps 📖
+simple spring-boot apps for learning purpose
